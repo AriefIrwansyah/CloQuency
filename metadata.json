@@ -1,0 +1,6 @@
+{
+  "name": "CloQuency",
+  "description": "A state-of-the-art interactive live radio platform featuring audio/video streams, dynamic community chat, real-time giveaway wheels, and broadcaster dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
