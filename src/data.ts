@@ -50,6 +50,51 @@ export const DEFAULT_WHEEL_ITEMS: LuckyWheelItem[] = [
   { id: "w8", text: "Sticker Badge Pack 🏷️", color: "#FF4500" }
 ];
 
+export const E100_WHEEL_ITEMS: LuckyWheelItem[] = [
+  { id: "e_w1", text: "Daft Punk - One More Time 🎧", color: "#FF1493" },
+  { id: "e_w2", text: "Deadmau5 - Strobe 🎛️", color: "#00BFFF" },
+  { id: "e_w3", text: "Avicii - Levels ⚡", color: "#FF8C00" },
+  { id: "e_w4", text: "SHM - Don't You Worry Child 🎵", color: "#32CD32" },
+  { id: "e_w5", text: "Disclosure - Latch All 🎙️", color: "#9932CC" },
+  { id: "e_w6", text: "Calvin Harris - Summer ☀️", color: "#FFD700" },
+  { id: "e_w7", text: "Martin Garrix - Animals 🦁", color: "#1E90FF" },
+  { id: "e_w8", text: "Tiësto - Adagio for Strings 🎻", color: "#FF4500" },
+  { id: "e_w9", text: "Fred again.. - Delilah 🔊", color: "#FF69B4" },
+  { id: "e_w10", text: "Peggy Gou - Starry Night ⭐", color: "#00FA9A" },
+  { id: "e_w11", text: "Fisher - Losing It 🔥", color: "#FF4500" },
+  { id: "e_w12", text: "Daft Punk - Around the World 🌎", color: "#8A2BE2" }
+];
+
+export const MRADIO_WHEEL_ITEMS: LuckyWheelItem[] = [
+  { id: "m_w1", text: "Tame Impala - The Less I Know 🎸", color: "#FF7F50" },
+  { id: "m_w2", text: "Arctic Monkeys - Do I Wanna Know? 🐾", color: "#9370DB" },
+  { id: "m_w3", text: "MGMT - Kids 🧸", color: "#00FA9A" },
+  { id: "m_w4", text: "EOTS - Walking On A Dream 💭", color: "#FF8C00" },
+  { id: "m_w5", text: "Phoenix - 1901 🗼", color: "#40E0D0" },
+  { id: "m_w6", text: "Foster The People - Pumped Up Kicks 👟", color: "#FFD700" },
+  { id: "m_w7", text: "The Killers - Mr. Brightside ✨", color: "#FF1493" },
+  { id: "m_w8", text: "Beach House - Space Song 🪐", color: "#1E90FF" },
+  { id: "m_w9", text: "Two Door Cinema - What You Know 🏷️", color: "#ADFF2F" },
+  { id: "m_w10", text: "Glass Animals - Heat Waves 🌡️", color: "#FF4500" },
+  { id: "m_w11", text: "CHVRCHES - The Mother We Share ⛪", color: "#BA55D3" },
+  { id: "m_w12", text: "Vampire Weekend - A-Punk 🦇", color: "#32CD32" }
+];
+
+export const SHERADIO_WHEEL_ITEMS: LuckyWheelItem[] = [
+  { id: "s_w1", text: "Tycho - Awake 🌅", color: "#008080" },
+  { id: "s_w2", text: "Bonobo - Kiara 🌿", color: "#808000" },
+  { id: "s_w3", text: "BOC - Dayvan Cowboy 🌊", color: "#4682B4" },
+  { id: "s_w4", text: "Massive Attack - Teardrop 💧", color: "#D3D3D3" },
+  { id: "s_w5", text: "Moby - Porcelain 🥣", color: "#BC8F8F" },
+  { id: "s_w6", text: "Zero 7 - Destiny ✨", color: "#DEB887" },
+  { id: "s_w7", text: "Air - Cherry Blossom Girl 🌸", color: "#FFB6C1" },
+  { id: "s_w8", text: "Petit Biscuit - Sunset Lover 🌇", color: "#FFA07A" },
+  { id: "s_w9", text: "Brian Eno - An Ending 🚀", color: "#6A5ACD" },
+  { id: "s_w10", text: "Aphex Twin - Alberto Balsalm 🧪", color: "#D8BFD8" },
+  { id: "s_w11", text: "Olafur Arnalds - Saman 🌨️", color: "#B0C4DE" },
+  { id: "s_w12", text: "Lofi Girl - Midnight Coffee ☕", color: "#F4A460" }
+];
+
 export const MOCK_USERNAMES = [
   { name: "DJ_WaveRider", avatar: "🎧", color: "#38bdf8" },
   { name: "BeatBlaster99", avatar: "💥", color: "#f87171" },

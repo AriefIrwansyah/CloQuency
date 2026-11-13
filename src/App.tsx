@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useEffect, useCallback } from "react";
-import { CHANNELS, DEFAULT_WHEEL_ITEMS, CHANNEL_DEFAULT_CHAT, CHATTER_COMMENTS, MOCK_USERNAMES, INITIAL_POLLS } from "./data";
+import { CHANNELS, DEFAULT_WHEEL_ITEMS, E100_WHEEL_ITEMS, MRADIO_WHEEL_ITEMS, SHERADIO_WHEEL_ITEMS, CHANNEL_DEFAULT_CHAT, CHATTER_COMMENTS, MOCK_USERNAMES, INITIAL_POLLS } from "./data";
 import { BroadcastChannel, ChatMessage, LivePoll, LuckyWheelItem, UserProfile } from "./types";
 import MediaPlayer from "./components/MediaPlayer";
 import LiveChat from "./components/LiveChat";
@@ -52,9 +52,9 @@ export default function App() {
   const [allChats, setAllChats] = useState<Record<string, ChatMessage[]>>(CHANNEL_DEFAULT_CHAT);
   const [allPolls, setAllPolls] = useState<Record<string, LivePoll | null>>(INITIAL_POLLS);
   const [allWheelItems, setAllWheelItems] = useState<Record<string, LuckyWheelItem[]>>({
-    e100: [...DEFAULT_WHEEL_ITEMS],
-    mradio: [...DEFAULT_WHEEL_ITEMS],
-    sheradio: [...DEFAULT_WHEEL_ITEMS]
+    e100: [...E100_WHEEL_ITEMS],
+    mradio: [...MRADIO_WHEEL_ITEMS],
+    sheradio: [...SHERADIO_WHEEL_ITEMS]
   });
 
   const [notifications, setNotifications] = useState<string[]>([]);

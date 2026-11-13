@@ -54,7 +54,10 @@ export default function MediaPlayer({
 
     // Modern Radio hosts sync: if stream changes or stream plays, jump to end (live buffer)
     if (isPlaying && audioRef.current) {
-      audioRef.current.currentTime = Math.max(0, audioRef.current.duration - 1);
+      const duration = audioRef.current.duration;
+      if (typeof duration === "number" && Number.isFinite(duration) && duration > 0) {
+        audioRef.current.currentTime = Math.max(0, duration - 1);
+      }
     }
 
     return () => {
